@@ -11,3 +11,8 @@ rand = "0.8.3"
 [[bin]]
 name = "my_binary"
 path = "src/main.rs"
+
+[[bin]]
+name = "fizzbuzz"
+path = "homework1/fizzbuzz.rs"
+
