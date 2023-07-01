@@ -10,17 +10,17 @@
 
 fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
     for element in v.iter_mut() {
-        // Умножаем каждый элемент вектора `v` на 2.
+        
         *element *= 2;
     }
 
-    // В этой точке `v` будет содержать [4, 8, 12, 16, 20].
+   
     v
 }
 
 fn vec_map(v: &Vec<i32>) -> Vec<i32> {
     v.iter().map(|&element| {
-        // Умножаем каждый элемент вектора на 2 и возвращаем новое значение.
+       
         element * 2
     }).collect()
 }
