@@ -16,3 +16,8 @@ path = "src/main.rs"
 name = "fizzbuzz"
 path = "homework1/fizzbuzz.rs"
 
+
+[[bin]]
+name = "task1"
+path = "tasks/task1.rs"
+

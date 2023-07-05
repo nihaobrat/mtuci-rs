@@ -1,0 +1,26 @@
+Index: Cargo.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[package]\nname = \"passgen\"\nversion = \"0.1.0\"\nedition = \"2021\"\n\n# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html\n\n[dependencies]\nrand = \"0.8.3\"\n\n[[bin]]\nname = \"my_binary\"\npath = \"src/main.rs\"\n\n[[bin]]\nname = \"fizzbuzz\"\npath = \"homework1/fizzbuzz.rs\"\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Cargo.toml b/Cargo.toml
+--- a/Cargo.toml	(revision f0bb616cce64842cf65842def48597176f4a1d05)
++++ b/Cargo.toml	(date 1688510084332)
+@@ -16,3 +16,10 @@
+ name = "fizzbuzz"
+ path = "homework1/fizzbuzz.rs"
+ 
++[[bin]]
++name = "task1.1"
++path = "src/task1.1"
++
++[[bin]]
++name = "task2"
++path = "src/task2.rs"
+diff --git a/src/FizzBuzz.rs b/src/main.rs
+rename from src/FizzBuzz.rs
+rename to src/main.rs
+diff --git a/src/task2.rs b/src/task2.rs
+new file mode 100644
