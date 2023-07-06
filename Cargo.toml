@@ -22,6 +22,6 @@ name = "task1"
 path = "taskshome/task1.rs"
 
 [[bin]]
-name = "task1"
+name = "task2"
 path = "taskshome/task2.rs"
 

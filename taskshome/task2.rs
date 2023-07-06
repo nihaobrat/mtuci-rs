@@ -1,5 +1,4 @@
 fn main() {}
-
 struct Rect {
     top_left: (f32, f32),
     width: f32,
