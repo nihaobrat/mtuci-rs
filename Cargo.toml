@@ -1,5 +1,5 @@
 [package]
-name = "passgen"
+name = "mtuci-rs"
 version = "0.1.0"
 edition = "2021"
 
@@ -19,5 +19,5 @@ path = "homework1/fizzbuzz.rs"
 
 [[bin]]
 name = "task1"
-path = "tasks home/task1.rs"
+path = "taskshome/task1.rs"
 
