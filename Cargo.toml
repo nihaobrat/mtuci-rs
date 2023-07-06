@@ -21,3 +21,7 @@ path = "homework1/fizzbuzz.rs"
 name = "task1"
 path = "taskshome/task1.rs"
 
+[[bin]]
+name = "task1"
+path = "taskshome/task2.rs"
+
