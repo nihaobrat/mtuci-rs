@@ -7,11 +7,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee3c7a2-13bd-4bce-a391-cdf16be6ac8c" name="Changes" comment="CI task 1">
-      <change afterPath="$PROJECT_DIR$/tasks/task1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1.rs" afterDir="false" />
+    <list default="true" id="aee3c7a2-13bd-4bce-a391-cdf16be6ac8c" name="Changes" comment="CI tasks">
+      <change afterPath="$PROJECT_DIR$/tasks home /task1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/task1.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688510099705</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pre-rust homework (update version)">
+      <created>1688668040715</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688668040715</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +185,7 @@
     <MESSAGE value="CI" />
     <MESSAGE value="CI task" />
     <MESSAGE value="CI task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CI task 1" />
+    <MESSAGE value="pre-rust homework (update version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre-rust homework (update version)" />
   </component>
 </project>

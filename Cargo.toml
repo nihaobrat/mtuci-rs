@@ -19,5 +19,5 @@ path = "homework1/fizzbuzz.rs"
 
 [[bin]]
 name = "task1"
-path = "tasks/task1.rs"
+path = "tasks home/task1.rs"
 
