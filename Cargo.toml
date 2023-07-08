@@ -25,3 +25,11 @@ path = "taskshome/task1.rs"
 name = "task2"
 path = "taskshome/task2.rs"
 
+[[bin]]
+name = "myvector"
+path = "homework4/myvector.rs"
+
+[[bin]]
+name = "hashmap"
+path = "homework4/hashmap.rs"
+
