@@ -1,0 +1,34 @@
+use teloxide::{
+    payloads::SendMessageSetters,
+    prelude::*,
+    types::{Message, ParseMode},
+};
+
+#[tokio::main]
+async fn main() {
+    teloxide::enable_logging!();
+    log::info!("Starting telegram_bot...");
+
+    let bot = Bot::from_env();
+
+    Dispatcher::new(bot)
+        .messages_handler(|rx: DispatcherHandlerRx<Bot, Message>| {
+            rx.for_each_concurrent(None, |(cx, message)| async move {
+                if let Some(text) = message.text() {
+                    match text.as_str() {
+                        "/start" => {
+                            cx.reply_to("Hello! This is your Rust Telegram bot.").await?;
+                        }
+                        _ => {
+                            cx.reply_to("I don't understand what you're saying :(")
+                                .parse_mode(ParseMode::MarkdownV2)
+                                .await?;
+                        }
+                    }
+                }
+                Ok(())
+            })
+        })
+        .dispatch()
+        .await;
+}
